@@ -1,0 +1,19 @@
+{
+  "name": "friends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"
+  }
+  "devDependencies": {
+    "browservefy": "0.0.10",
+    "voxel-engine": "^0.20.1",
+    "voxel-player": "^0.1.0"
+  }
+}
