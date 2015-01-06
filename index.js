@@ -1,8 +1,8 @@
 var createGame = require('voxel-engine');
 
-var game = createGame(
+var game = createGame({
   texturePath: 'textures/'
-);
+});
 
 var container = document.body;
 game.appendTo(container);
